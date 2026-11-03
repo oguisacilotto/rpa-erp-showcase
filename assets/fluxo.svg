@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 340" width="1200" height="340" role="img" aria-label="Como o robo trabalha: gatilho, operar a tela, montar relatorios, entregar e conferir">
+  <defs>
+    <linearGradient id="red2" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#F0566B"/>
+      <stop offset="1" stop-color="#D10524"/>
+    </linearGradient>
+    <filter id="cardshadow" x="-10%" y="-10%" width="120%" height="140%">
+      <feDropShadow dx="0" dy="4" stdDeviation="7" flood-color="#8A3A44" flood-opacity="0.12"/>
+    </filter>
+    <style>
+      .sans { font-family: "Segoe UI", system-ui, -apple-system, Roboto, sans-serif; }
+      .title { font-weight: 700; fill: #1B1417; }
+      .body  { font-weight: 400; fill: #6E5E61; }
+      .num   { font-weight: 800; fill: #FFFFFF; }
+    </style>
+  </defs>
+
+  <rect width="1200" height="340" fill="#FBF7F7"/>
+  <text x="48" y="48" class="sans title" font-size="24">Como o rob&#244; trabalha</text>
+  <text x="48" y="74" class="sans body" font-size="15">Do gatilho &#224; entrega, sem ningu&#233;m operando o ERP &#8212; e com os n&#250;meros conferidos no fim.</text>
+
+  <!-- connecting arrows -->
+  <g fill="#D10524" stroke="#D10524" stroke-width="3">
+    <path d="M300 170 h30"/>
+    <path d="M334 170 l-10 -6 v12 z" stroke="none"/>
+    <path d="M584 170 h30"/>
+    <path d="M618 170 l-10 -6 v12 z" stroke="none"/>
+    <path d="M868 170 h30"/>
+    <path d="M902 170 l-10 -6 v12 z" stroke="none"/>
+  </g>
+
+  <!-- Card 1: Gatilho -->
+  <g class="sans">
+    <rect x="48" y="96" width="250" height="160" rx="14" fill="#FFFFFF" stroke="#EADFE1" stroke-width="1.5" filter="url(#cardshadow)"/>
+    <circle cx="80" cy="130" r="17" fill="url(#red2)"/>
+    <text x="80" y="137" class="num" font-size="18" text-anchor="middle">1</text>
+    <text x="110" y="137" class="title" font-size="20">Gatilho</text>
+    <circle cx="262" cy="128" r="12" fill="none" stroke="#E3B8BF" stroke-width="2"/>
+    <path d="M262 121 v7 l5 3" fill="none" stroke="#E3B8BF" stroke-width="2" stroke-linecap="round"/>
+    <text x="72" y="178" class="body" font-size="15">Agenda mensal ou um</text>
+    <text x="72" y="200" class="body" font-size="15">comando no Telegram</text>
+    <text x="72" y="222" class="body" font-size="15">dispara o fechamento.</text>
+  </g>
+
+  <!-- Card 2: Operar a tela -->
+  <g class="sans">
+    <rect x="334" y="96" width="250" height="160" rx="14" fill="#FFFFFF" stroke="#EADFE1" stroke-width="1.5" filter="url(#cardshadow)"/>
+    <circle cx="366" cy="130" r="17" fill="url(#red2)"/>
+    <text x="366" y="137" class="num" font-size="18" text-anchor="middle">2</text>
+    <text x="396" y="137" class="title" font-size="20">Operar a tela</text>
+    <rect x="536" y="116" width="26" height="20" rx="3" fill="none" stroke="#E3B8BF" stroke-width="2"/>
+    <path d="M552 131 l0 11 l3 -3 l3 5 l2 -1 l-3 -5 l5 0 z" fill="#D10524"/>
+    <text x="358" y="178" class="body" font-size="15">16 receitas clicam,</text>
+    <text x="358" y="200" class="body" font-size="15">digitam e leem a grade</text>
+    <text x="358" y="222" class="body" font-size="15">do ERP (que n&#227;o tem API).</text>
+  </g>
+
+  <!-- Card 3: Montar relatorios -->
+  <g class="sans">
+    <rect x="618" y="96" width="250" height="160" rx="14" fill="#FFFFFF" stroke="#EADFE1" stroke-width="1.5" filter="url(#cardshadow)"/>
+    <circle cx="650" cy="130" r="17" fill="url(#red2)"/>
+    <text x="650" y="137" class="num" font-size="18" text-anchor="middle">3</text>
+    <text x="680" y="137" class="title" font-size="20">Montar relat&#243;rios</text>
+    <path d="M822 116 h16 l6 6 v18 h-22 z" fill="none" stroke="#E3B8BF" stroke-width="2" stroke-linejoin="round"/>
+    <text x="642" y="178" class="body" font-size="15">23 extratores montam</text>
+    <text x="642" y="200" class="body" font-size="15">os relat&#243;rios em .xlsx</text>
+    <text x="642" y="222" class="body" font-size="15">e .pdf do fechamento.</text>
+  </g>
+
+  <!-- Card 4: Entregar e conferir -->
+  <g class="sans">
+    <rect x="902" y="96" width="250" height="160" rx="14" fill="#FFFFFF" stroke="#EADFE1" stroke-width="1.5" filter="url(#cardshadow)"/>
+    <circle cx="934" cy="130" r="17" fill="url(#red2)"/>
+    <text x="934" y="137" class="num" font-size="18" text-anchor="middle">4</text>
+    <text x="964" y="137" class="title" font-size="20">Entregar e conferir</text>
+    <path d="M1118 115 l10 3 v8 c0 6 -5 10 -10 12 c-5 -2 -10 -6 -10 -12 v-8 z" fill="none" stroke="#E3B8BF" stroke-width="2" stroke-linejoin="round"/>
+    <path d="M1113 127 l3 3 l6 -6" fill="none" stroke="#3AA76D" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="926" y="178" class="body" font-size="15">Telegram avisa e a</text>
+    <text x="926" y="200" class="body" font-size="15">valida&#231;&#227;o read-only</text>
+    <text x="926" y="222" class="body" font-size="15">(SELECT) confere tudo.</text>
+  </g>
+
+  <text x="48" y="300" class="sans body" font-size="13" fill="#9A8A8D">O ERP &#233; .NET + WinDev e n&#227;o exp&#245;e API &#8212; por isso o rob&#244; trabalha pela interface, como uma pessoa faria.</text>
+</svg>

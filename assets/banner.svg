@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 420" width="1200" height="420" role="img" aria-label="RPA de Fechamento - robo que opera o ERP pela tela">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 420" width="1200" height="420" role="img" aria-label="RPA de Tela - o robo faz no ERP qualquer acao que uma pessoa faria na tela">
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0" stop-color="#1B1417"/>
@@ -27,46 +27,42 @@
   <g class="sans">
     <text x="64" y="96" fill="#F0566B" font-size="18" font-weight="700" letter-spacing="3">FULLPACK ERP &#183; AUTOMACAO DE TELA</text>
     <rect x="64" y="110" width="56" height="4" rx="2" fill="url(#red)"/>
-    <text x="62" y="192" fill="#F4F1F0" font-size="62" font-weight="800" letter-spacing="-1">RPA de Fechamento</text>
-    <text x="64" y="244" fill="#CBB9BD" font-size="23" font-weight="400">O robo opera o ERP pela propria tela e entrega os</text>
-    <text x="64" y="276" fill="#CBB9BD" font-size="23" font-weight="400">relatorios do fechamento mensal &#8212; sozinho.</text>
+    <text x="62" y="192" fill="#F4F1F0" font-size="62" font-weight="800" letter-spacing="-1">RPA de Tela</text>
+    <text x="64" y="244" fill="#CBB9BD" font-size="23" font-weight="400">O rob&#244; faz no ERP qualquer a&#231;&#227;o que uma</text>
+    <text x="64" y="276" fill="#CBB9BD" font-size="23" font-weight="400">pessoa faria na tela &#8212; n&#227;o s&#243; relat&#243;rios.</text>
 
-    <!-- small stat chips -->
+    <!-- capability chips -->
     <g font-size="15" font-weight="600">
-      <rect x="64" y="310" width="150" height="38" rx="19" fill="#2E2024" stroke="#45313680" stroke-width="1"/>
-      <text x="82" y="334" fill="#F0A6B0">16 receitas de tela</text>
-      <rect x="226" y="310" width="140" height="38" rx="19" fill="#2E2024" stroke="#45313680" stroke-width="1"/>
-      <text x="244" y="334" fill="#F0A6B0">23 extratores</text>
-      <rect x="378" y="310" width="176" height="38" rx="19" fill="#2E2024" stroke="#45313680" stroke-width="1"/>
-      <text x="396" y="334" fill="#F0A6B0">validacao read-only</text>
+      <rect x="64" y="310" width="140" height="38" rx="19" fill="#2E2024" stroke="#45313680" stroke-width="1"/>
+      <text x="82" y="334" fill="#F0A6B0">navega menus</text>
+      <rect x="216" y="310" width="176" height="38" rx="19" fill="#2E2024" stroke="#45313680" stroke-width="1"/>
+      <text x="234" y="334" fill="#F0A6B0">preenche e clica</text>
+      <rect x="404" y="310" width="132" height="38" rx="19" fill="#2E2024" stroke="#45313680" stroke-width="1"/>
+      <text x="422" y="334" fill="#F0A6B0">l&#234; a grade</text>
     </g>
   </g>
 
   <!-- Right: ERP window being operated -->
   <g filter="url(#shadow)">
     <rect x="700" y="60" width="438" height="232" rx="14" fill="#F6F1F0"/>
-    <!-- title bar -->
     <path d="M700 74 a14 14 0 0 1 14 -14 h410 a14 14 0 0 1 14 14 v26 h-438 z" fill="#E7DADC"/>
     <circle cx="722" cy="80" r="5" fill="#D10524"/>
     <circle cx="740" cy="80" r="5" fill="#E8A13C"/>
     <circle cx="758" cy="80" r="5" fill="#3AA76D"/>
-    <text x="930" y="85" class="sans" font-size="13" font-weight="600" fill="#8A7A7D" text-anchor="middle">Fullpack &#183; Fechamento</text>
+    <text x="930" y="85" class="sans" font-size="13" font-weight="600" fill="#8A7A7D" text-anchor="middle">Fullpack &#183; janela do ERP</text>
   </g>
 
   <!-- window content: data grid -->
   <g>
-    <!-- header row -->
     <rect x="716" y="112" width="406" height="22" fill="#F0E6E7"/>
     <rect x="728" y="119" width="70" height="8" rx="4" fill="#B9A6A9"/>
     <rect x="858" y="119" width="90" height="8" rx="4" fill="#B9A6A9"/>
     <rect x="1010" y="119" width="60" height="8" rx="4" fill="#B9A6A9"/>
-    <!-- rows -->
     <g fill="#D7C9CB">
       <rect x="728" y="148" width="120" height="8" rx="4"/>
       <rect x="880" y="148" width="80" height="8" rx="4"/>
       <rect x="1010" y="148" width="60" height="8" rx="4"/>
     </g>
-    <!-- highlighted row (robot is on it) -->
     <rect x="716" y="170" width="406" height="26" fill="#FBEEF0"/>
     <rect x="716" y="170" width="4" height="26" fill="#D10524"/>
     <g fill="#C9A9AE">
@@ -83,34 +79,28 @@
       <rect x="1010" y="240" width="60" height="8" rx="4"/>
     </g>
 
-    <!-- AUTO chip -->
     <rect x="1040" y="60" width="78" height="26" rx="13" fill="url(#red)"/>
     <circle cx="1057" cy="73" r="4" fill="#FFFFFF"/>
     <text x="1070" y="77" class="sans" font-size="13" font-weight="700" fill="#FFFFFF">AUTO</text>
 
-    <!-- cursor operating the highlighted row -->
     <g transform="translate(1086 176)" filter="url(#shadow)">
       <path d="M0 0 L0 26 L7 20 L12 31 L17 29 L12 18 L21 18 Z" fill="#FFFFFF" stroke="#1B1417" stroke-width="1.5" stroke-linejoin="round"/>
     </g>
   </g>
 
-  <!-- export flow to reports -->
+  <!-- actions the robot performs on screen -->
   <g>
     <path d="M919 292 L919 318" stroke="#D10524" stroke-width="3" fill="none"/>
     <path d="M919 322 l-6 -9 h12 z" fill="#D10524"/>
-    <!-- xlsx file -->
-    <g filter="url(#shadow)">
-      <path d="M812 326 h74 l16 16 v50 a0 0 0 0 1 0 0 h-90 a0 0 0 0 1 0 0 z" fill="#FFFFFF"/>
-      <path d="M886 326 l16 16 h-16 z" fill="#D9CCCE"/>
+    <g class="sans" font-size="14" font-weight="600" text-anchor="middle">
+      <rect x="709" y="326" width="96" height="34" rx="17" fill="#FFFFFF" stroke="#E7DADC" stroke-width="1.5"/>
+      <text x="757" y="348" fill="#C01E38">Navegar</text>
+      <rect x="817" y="326" width="96" height="34" rx="17" fill="#FFFFFF" stroke="#E7DADC" stroke-width="1.5"/>
+      <text x="865" y="348" fill="#C01E38">Preencher</text>
+      <rect x="925" y="326" width="96" height="34" rx="17" fill="#FFFFFF" stroke="#E7DADC" stroke-width="1.5"/>
+      <text x="973" y="348" fill="#C01E38">Ler</text>
+      <rect x="1033" y="326" width="96" height="34" rx="17" fill="#FFFFFF" stroke="#E7DADC" stroke-width="1.5"/>
+      <text x="1081" y="348" fill="#C01E38">Exportar</text>
     </g>
-    <rect x="824" y="366" width="52" height="16" rx="4" fill="#1E7F4F"/>
-    <text x="850" y="378" class="sans" font-size="11" font-weight="700" fill="#FFFFFF" text-anchor="middle">XLSX</text>
-    <!-- pdf file -->
-    <g filter="url(#shadow)">
-      <path d="M936 326 h74 l16 16 v50 h-90 z" fill="#FFFFFF"/>
-      <path d="M1010 326 l16 16 h-16 z" fill="#D9CCCE"/>
-    </g>
-    <rect x="952" y="366" width="48" height="16" rx="4" fill="#D10524"/>
-    <text x="976" y="378" class="sans" font-size="11" font-weight="700" fill="#FFFFFF" text-anchor="middle">PDF</text>
   </g>
 </svg>
